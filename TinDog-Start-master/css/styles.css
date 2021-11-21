@@ -1,0 +1,158 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3 {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color:#8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.pricebtn {
+  width: 100%;
+}
+/* navbar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* Download button */
+
+.down {
+  margin: 5% 3% 5% 0%
+}
+
+/* mobile */
+.mobile {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.feat {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon :hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+.testimage {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price {
+  padding: 5% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .mobile {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* closing */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 5%;
+}
+.lastdown {
+  margin: 50px 10px 0;
+}
+
+/* footer */
+
+#footer {
+  padding: 50px;
+  text-align: center;
+}
+.footicon {
+  margin: 0 0.6% 1%;
+}
